@@ -1,7 +1,9 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import Home from './Components/Home';
 import Navbar from './Components/Navbar';
+
 
 
 function App() {
@@ -10,7 +12,9 @@ function App() {
   },[])
   return (
     <div>
-     <Navbar />
+      <Navbar />
+    <Home />
+  
     </div>
    
   );
